@@ -1,0 +1,114 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-image: url("../img/giphy.gif");
+    /* background-image: url("https://media0.giphy.com/media/H5POhvdgk9kcYyTToA/giphy.gif?cid=ecf05e4775vufwvregsakkpyd02dnj89gw0xw25bevdig64z&rid=giphy.gif&ct=g"); */
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+
+
+
+}
+
+strong {
+    font-weight: 700;
+}
+
+#start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#intro {
+    justify-content: center;
+}
+
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100px;
+    margin: 10px;
+    -webkit-text-stroke: 2px gold;
+    color: black;
+    margin: 30px auto;
+    text-align: center;
+
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    -webkit-text-stroke: 1px gold;
+    color: black;
+    margin: 30px auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.551);
+    padding: 10px 70px 10px 70px;
+    border-radius: 20px;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    -webkit-text-stroke: 1px gold;
+    color: black;
+    text-align: left;
+    margin: 30px auto;
+
+
+}
+
+.button p {
+
+    font-size: 20px;
+    padding: 10px 40px 10px 40px;
+    margin: 0;
+    padding: 0;
+    -webkit-text-stroke: none;
+}
+
+/* .button p:hover {
+    color: rgb(0, 0, 0);
+
+} */
+
+button:hover {
+    background-color: rgba(255, 210, 0, 0.542);
+}
+
+/* .slogan {
+
+    font-size: 90px;
+    -webkit-text-stroke: 0.5px gold;
+    margin: 20px auto;
+    background-color: white;
+    padding: 10px 90px 10px 40px;
+    border-radius: 50px;
+    opacity: 0.9;
+    border: 1px solid gold;
+} */
+
+.buttton {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.button {
+    background-color: rgba(0, 0, 0, 0.542);
+    padding: 10px 40px 10px 40px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    border: 3px solid gold;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 90px auto 10px auto;
+
+}
